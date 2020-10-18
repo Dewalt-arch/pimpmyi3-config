@@ -10,15 +10,15 @@
 
 # $modkey for ALT and Mod4 for Winkey
 #set $modkey control
-set $modkey Mod1            
+set $modkey Mod1
 
-# Sane Alt tabbed   
+# Sane Alt tabbed
 set $i3t_alt_tab        /root/.config/i3/i3-alt-tab.py n
 set $i3t_alt_shift_tab  /root/.config/i3/i3-alt-tab.py p all
 
 bindsym $modkey+Tab exec i3-alt-tab.py next current
 bindsym $modkey+Shift+Tab exec i3-alt-tab.py next all
-            
+
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 font pango: Terminus (TTF) bold 10
@@ -382,7 +382,7 @@ mode "$mode_gaps_outer" {
 # Please remove the following exec line:
 #######################################################################
 exec --no-startup-id compton
-exec --no-startup-id feh --bg-fill ~/Pictures/background.jpg
+exec --no-startup-id feh --bg-scale ~/Pictures/background.jpg
 exec --no-startup-id flameshot
 exec --no-startup-id nm-applet
 exec --no-startup-id numlockx on
