@@ -61,6 +61,9 @@ bindsym $modkey+d exec --no-startup-id rofi -show run
 # installed.
 # bindsym $modkey+d exec --no-startup-id --no-startup-id i3-dmenu-desktop
 
+# modkey+PrintScreen (Sys_Req) flameshot gui
+bindsym $modkey+Sys_Req exec /usr/bin/flameshot gui
+
 # change focus
 bindsym $modkey+$left focus left
 bindsym $modkey+$down focus down
