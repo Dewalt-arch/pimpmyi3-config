@@ -63,7 +63,7 @@ bindsym $modkey+d exec --no-startup-id rofi -show run
 
 # FlameShot Key to take screenshot
 # modkey+printscreen
-modkey+Sys_Req flameshot gui
+bindsym $modkey+Sys_Req exec flameshot gui
 # or printscreen key by itself uncomment next line to use
 # bindsym Print exec /usr/bin/flameshot gui
 
