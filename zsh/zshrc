@@ -198,4 +198,5 @@ if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 fi
 
+# BPT bash_profile saved to .zsh_proflie
 source ~/.zsh_profile
