@@ -86,11 +86,11 @@ bindsym $modkey+Shift+$down move down
 bindsym $modkey+Shift+$up move up
 bindsym $modkey+Shift+$right move right
 
-# alternatively, you can use the cursor keys:
-bindsym $modkey+Shift+Left move left
-bindsym $modkey+Shift+Down move down
-bindsym $modkey+Shift+Up move up
-bindsym $modkey+Shift+Right move right
+# resize tiles using control key + up down left right
+bindsym $mod+Ctrl+Left resize shrink width 1 px or 1 ppt
+bindsym $mod+Ctrl+Down resize grow height 1 px or 1 ppt
+bindsym $mod+Ctrl+Up resize shrink height 1 px or 1 ppt
+bindsym $mod+Ctrl+Right resize grow width 1 px or 1 ppt
 
 # split in horizontal orientation
 bindsym $modkey+h split h
