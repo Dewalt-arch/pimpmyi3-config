@@ -8,8 +8,10 @@
 # To get a config file with the same key positions, but for your current
 # layout, use the i3-config-wizard
 
-# $modkey for ALT and Mod4 for Winkey
-#set $modkey control
+# Mod Key - Uncomment one or the other but not both!
+# uncomment the line below to use the 'windows key' as your modkey
+# set $modkey Mod4
+# uncomment the line below to use the 'alt' key as your modkey
 set $modkey Mod1
 
 # Sane Alt tabbed
