@@ -84,7 +84,6 @@ bindsym $modkey+Sys_Req exec flameshot gui
 # or printscreen key by itself uncomment next line to use
 # bindsym Print exec /usr/bin/flameshot gui
 
-
 # change focus
 bindsym $modkey+$left focus left
 bindsym $modkey+$down focus down
@@ -102,6 +101,12 @@ bindsym $modkey+Shift+$left move left
 bindsym $modkey+Shift+$down move down
 bindsym $modkey+Shift+$up move up
 bindsym $modkey+Shift+$right move right
+
+# alternatively, you can use the cursor keys:
+bindsym $modkey+Shift+Left move left
+bindsym $modkey+Shift+Down move down
+bindsym $modkey+Shift+Up move up
+bindsym $modkey+Shift+Right move right
 
 # resize tiles using control key + up down left right
 bindsym $mod+Ctrl+Left resize shrink width 1 px or 1 ppt
